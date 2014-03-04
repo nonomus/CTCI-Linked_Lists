@@ -2,7 +2,8 @@
 #include <list>
 
 using namespace std;
-
+//Basic function that prints out a spaced out list. Requires list
+//elements to be printable.
 template<typename T>
 void printList(list<T> *listIn){
 	for(typename list<T>::iterator i = listIn->begin(); i != listIn->end(); i++){
