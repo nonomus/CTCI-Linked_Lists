@@ -36,8 +36,6 @@ void removeDuplicates(list<T> *listIn){
 	}
 }
 
-//How would you solve this problem if a temporary buffer is not allowed?
-
 int main(){
 	cout << "removeDuplicates test cases:" << endl;
 	list<int> testList;
